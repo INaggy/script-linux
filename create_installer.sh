@@ -2,6 +2,6 @@
 echo "Создание установщика..."
 # Пример: упаковать проект в архив
 OUTPUT_DIR="installer"
-mkdir -p "$OUTPUT_DIR"
-tar -czf "$OUTPUT_DIR/project_installer.tar.gz" .
-echo "Установщик создан: $OUTPUT_DIR/project_installer.tar.gz"
+mkdir -p "$Projects_"
+tar -czf "$Projects_/project_installer.tar.gz" .
+echo "Установщик создан: $Projects_/project_installer.tar.gz"
